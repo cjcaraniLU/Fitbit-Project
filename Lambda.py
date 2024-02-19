@@ -4,7 +4,7 @@ import pandas as pd
 import boto3
 
 def lambda_handler(event = None, context = None):
-    token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyM1JDRzIiLCJzdWIiOiJCTjcyM0YiLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJlY2cgcnNldCByb3h5IHJudXQgcnBybyByc2xlIHJjZiByYWN0IHJyZXMgcmxvYyByd2VpIHJociBydGVtIiwiZXhwIjoxNzEwMTMxNDcxLCJpYXQiOjE3MDc1Mzk0NzF9.ekp6SI5DE192OrarXbdI5MADpBVjDkl3L7x7zf-PHtA"
+    token = "<insert token here>"
     header = {'Authorization' : 'Bearer {}'.format(token)}
     header_us = {'Authorization' : 'Bearer {}'.format(token), 'accept-language' : 'en_US'}
     
